@@ -48,3 +48,34 @@
 // console.log(typeof myFunction); //function
 // console.log(typeof myObj); //object
 // console.log(typeof heros); //object
+
+//**************************MEMORY*******************************//
+
+//  Stack (Primitive), Heap (Non-primitive)
+
+// let myYoutubename = "tritiya"
+
+// let anotherName = myYoutubename
+// anotherName = "chai aur code"
+// console.log(anotherName); //chai aur code
+// console.log(myYoutubename); //tritiya
+
+// let userOne = {
+//     email: "user@google.com",
+//     upi: "user@ybl"
+// }
+// let userTwo = userOne
+// userTwo.email = "tritiya@google.com"
+
+// console.log(userOne.email); //tritiya@google.com
+// console.log(userTwo.email); //tritiya@google.com
+
+
+// Stack always gives you a copy 
+// Heap always gives you a reference.
+
+// stores in multiple elements/boxes.
+// stores in a single element and updates itself.
+
+// You cannot change in the original element.
+// You can make changes in the original element.
